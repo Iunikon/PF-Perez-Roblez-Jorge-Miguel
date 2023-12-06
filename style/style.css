@@ -573,6 +573,10 @@
  }
 
  /*Sobre mi */
+ .espacio-contenedor{
+    padding: 15px;
+ }
+
  .fotos {
      display: grid;
      grid-template-columns: repeat(3, 1fr);
