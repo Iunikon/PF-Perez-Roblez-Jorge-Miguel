@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <link rel="stylesheet" href="/style/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Jorge Roblez</title>
+
+
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        </div>
+        <nav>
+            <input type="checkbox" id="menu">
+            <label id="label-menu" for="menu"> ☰ Menu </label>
+            <ul class="nav-links">
+                <li class="logo-container">
+                    <img class="photo-logo" src="../images/photo-logo.jpg" alt="Jorge Roblez">
+                </li>
+                <li>
+                    <a href="../pages/sobre-mi.html">
+                        <img class="arrow" src="../images/izquierda gris6.svg" alt="Email">
+                        Sobre Mí
+                    </a>
+                </li>
+                <li><a href="../index.html">Home</a></li>
+                <li id="reproductor"><a class="txt-light">Escuchando <b>Extssy Model</b> - Junior H</a></li>
+                <li>
+                    <a href="../pages/proyectos.html">
+                        Proyectos
+                        <img class="arrow" src="../images/abajo gris.svg">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Fotografía
+                        <img class="arrow" src="../images/abajo gris.svg">
+                    </a>
+                </li>
+                <li id="contacto-btn"><a class="txt-light" href="../pages/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="foto">
+        <div class="d-flex">
+            <div class="col-md-6 align-self-center">
+                <h1>
+                    Fotografía 📸
+                </h1>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                    laoreet
+                    dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam</p>
+                <a href="#" class="boton"><button>Contacto</button></a>
+                <a href="#" class="btn-underline-dark"><button>Proyectos</button></a>
+            </div>
+            <div class="cta-proyectos col-md-6">
+                <img src="../images/irish.png" alt="" width="400px">
+                <img class="mask" src="../images/irish.png" alt="" width="400px">
+            </div>
+        </div>
+    </main>
+    <section>
+        <div class="fotos">
+            <div class="foto1" data-bs-toggle="modal" data-bs-target="#fotoModal1"></div>
+            <div class="foto2" data-bs-toggle="modal" data-bs-target="#fotoModal2"></div>
+            <div class="foto3" data-bs-toggle="modal" data-bs-target="#fotoModal3"></div>
+            <div class="foto4" data-bs-toggle="modal" data-bs-target="#fotoModal4"></div>
+            <div class="foto5" data-bs-toggle="modal" data-bs-target="#fotoModal5"></div>
+        </div>
+
+        <!-- Modales para cada foto -->
+        <div class="modal fade" id="fotoModal1" tabindex="-1" aria-labelledby="fotoModal1Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <!-- Contenido de la primera foto -->
+                        <img src="../images/Foto1.jpg" class="img-fluid" alt="Foto 1">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="fotoModal2" tabindex="-1" aria-labelledby="fotoModal2Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <!-- Contenido de la segunda foto -->
+                        <img src="../images/Foto2.png" class="img-fluid" alt="Foto 2">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="fotoModal3" tabindex="-1" aria-labelledby="fotoModal3Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <!-- Contenido de la tercera foto -->
+                        <img src="../images/Foto3.jpg" class="img-fluid" alt="Foto 3">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="fotoModal4" tabindex="-1" aria-labelledby="fotoModal4Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <!-- Contenido de la cuarta foto -->
+                        <img src="../images/Foto5.png" class="img-fluid" alt="Foto 4">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="fotoModal5" tabindex="-1" aria-labelledby="fotoModal5Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <!-- Contenido de la quinta foto -->
+                        <img src="../images/Foto4.jpg" class="img-fluid" alt="Foto 5">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <footer class="txt-light" style="background-color: #5532dc;">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row text-center text-md-start">
+                    <div class="col-md-6">
+                        <div class="copyright d-md-inline-flex mt-4 ">
+                            <span>&copy;2023. All Right Reserved Jorgito.xyz</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-md-end mb-3">
+                        <div class="redes-sociales d-flex d-md-inline-flex mt-4 justify-content-center">
+                            <a href="https://www.instagram.com/disfrazdepony/" target="_blank">
+                                <img class="icon" src="../images/instagram-icon.svg" alt="Instagram">
+                            </a>
+                            <a href="https://www.facebook.com/JorgeMiguelPerezRoblez/" target="_blank">
+                                <img class="icon" src="../images/facebook-icon.svg" alt="Facebook">
+                            </a>
+                            <a href="https://wa.me/+524494943569" target="_blank">
+                                <img class="icon" src="../images/whatsapp-icon.svg" alt="WhatsApp">
+                            </a>
+                            <div class="icon-mail">
+                                <img class="icon" src="../images/email-icon.svg" alt="Email">
+                                <span>hola@jorgito.yxz</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
