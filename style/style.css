@@ -271,7 +271,7 @@
 
  .intro {
      grid-area: 1 / 1 / 4 / 3;
-     background-image: url('/images/Purple-gradient.jpg');
+     background-image: url('../images/Purple-gradient.jpg');
      background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
@@ -285,7 +285,7 @@
 
  .destacado {
      grid-area: 1 / 3 / 3 / 5;
-     background-image: url('/images/lvne.jpg');
+     background-image: url('../images/lvne.jpg');
      background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
@@ -295,7 +295,7 @@
 
  .reciente {
      grid-area: 3 / 3 / 4 / 4;
-     background-image: url('/images/NDC.png');
+     background-image: url('../images/NDC.png');
      background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
@@ -353,7 +353,7 @@
  }
 
  #contacto {
-     background-image: url('/images/Purple-gradient.jpg');
+     background-image: url('../images/Purple-gradient.jpg');
      background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
@@ -476,7 +476,7 @@
 
  .proyecto1 {
      grid-area: 1 / 1 / 3 / 3;
-     background-image: url('/images/infografia.jpg');
+     background-image: url('../images/infografia.jpg');
      background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
@@ -490,7 +490,7 @@
 
  .proyecto2 {
      grid-area: 1 / 3 / 3 / 4;
-     background-image: url('/images/Geek.jpg');
+     background-image: url('../images/Geek.jpg');
      background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
@@ -504,7 +504,7 @@
 
  .proyecto3 {
      grid-area: 3 / 1 / 4 / 2;
-     background-image: url('/images/kolor.jpg');
+     background-image: url('../images/kolor.jpg');
      background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
@@ -518,7 +518,7 @@
 
  .proyecto4 {
      grid-area: 3 / 2 / 4 / 3;
-     background-image: url('/images/revista.jpg');
+     background-image: url('../images/revista.jpg');
      background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
@@ -532,7 +532,7 @@
 
  .proyecto5 {
      grid-area: 3 / 3 / 4 / 4;
-     background-image: url('/images/ep.jpg');
+     background-image: url('../images/ep.jpg');
      background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
@@ -586,7 +586,7 @@
 
  .foto1 {
      grid-area: 1 / 1 / 3 / 2;
-     background-image: url('/images/foto1.jpg');
+     background-image: url('../images/foto1.jpg');
      background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
@@ -600,7 +600,7 @@
 
  .foto2 {
      grid-area: 1 / 2 / 3 / 3;
-     background-image: url('/images/Foto2.png');
+     background-image: url('../images/Foto2.png');
      background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
@@ -614,7 +614,7 @@
 
  .foto3 {
      grid-area: 1 / 3 / 3 / 4;
-     background-image: url('/images/Foto3.jpg');
+     background-image: url('../images/Foto3.jpg');
      background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
@@ -628,7 +628,7 @@
 
  .foto4 {
      grid-area: 3 / 1 / 4 / 2;
-     background-image: url('/images/Foto5.png');
+     background-image: url('../images/Foto5.png');
      background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
@@ -642,7 +642,7 @@
 
  .foto5 {
      grid-area: 3 / 2 / 4 / 4;
-     background-image: url('/images/Foto4.jpg');
+     background-image: url('../images/Foto4.jpg');
      background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
@@ -655,7 +655,7 @@
  }
 
  .bloque {
-     background-image: url('/images/Purple-gradient.jpg');
+     background-image: url('../images/Purple-gradient.jpg');
      background-size: cover;
      background-position: center;
  }
