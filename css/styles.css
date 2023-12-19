@@ -17,7 +17,6 @@ header {
   header .nav-links {
     list-style: none;
     display: flex;
-    margin-left: 0px !important;
     margin-bottom: 0px; }
     header .nav-links li {
       padding: 10px 12px;
@@ -46,6 +45,9 @@ header {
     flex-grow: 1; }
   header #contacto-btn {
     background-color: #5532dc; }
+
+ol, ul {
+  padding-left: 0px !important; }
 
 * {
   margin: 0px;
@@ -538,9 +540,7 @@ li::marker {
     height: 30vh; }
   main#inicio {
     display: inline;
-    grid-template-areas: "intro"
- "destacado"
- "reciente reciente-info";
+    grid-template-areas: "intro" "destacado" "reciente reciente-info";
     grid-template-rows: auto;
     grid-template-columns: 1fr 1fr; }
   .cta-home {
