@@ -1,0 +1,60 @@
+ /*Inicia estilo de header*/
+ header {
+    padding: 10px 15px;
+    margin-inline: 5px;
+    z-index: 99999;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 10px;
+    background: rgba(255, 255, 255, 0.63);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+    backdrop-filter: blur(9.5px);
+    -webkit-backdrop-filter: blur(9.5px);
+    border-radius: 5px;
+
+    .nav-links {
+        list-style: none;
+        display: flex;
+        margin-bottom: 0px;
+
+        li {
+            padding: 10px 12px;
+            background: $lightGray;
+            border-radius: 15px;
+            margin: 0 5px;
+            align-items: center;
+            text-align: center;
+
+            a {
+                font-size: 14px;
+                color: $darkGray;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .movil-logo,
+    .logo-container {
+        display: flex;
+        padding: 0px !important;
+        background: transparent !important;
+    }
+
+    .photo-logo {
+        border-radius: 15px;
+        width: 45px;
+        cursor: pointer;
+        display: flex;
+    }
+
+    #reproductor {
+        background: $darkGray;
+        text-align: center;
+        flex-grow: 1;
+    }
+
+    #contacto-btn {
+        background-color: $purple;
+    }
+}

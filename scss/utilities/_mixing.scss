@@ -1,0 +1,29 @@
+@mixin input-propiedades {
+    border: none;
+    padding: 4px 4px;
+    background-color: #ffffffb3;
+    border-radius: 5px;
+    margin-inline: 5px;
+    margin-block: 5px !important;
+}
+@mixin button-propiedades {
+    font-size: 16px;
+    padding: 10px 25px;
+    border: none;
+    cursor: pointer;
+}
+@mixin badge-propiedades {
+    background-color: rgb(115, 68, 204);
+    color: white;
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+@mixin grid-layout-mixin {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    height: 95vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
