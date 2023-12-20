@@ -32,7 +32,7 @@
  }
 
  input {
-    @include input-propiedades;
+     @include input-propiedades;
  }
 
  /*Titulares*/
@@ -62,6 +62,7 @@
      font-weight: 750;
      padding: 5px 0px 5px 0px;
  }
+
  /*Footer*/
  footer {
      background-color: $purple;
@@ -91,70 +92,70 @@
      width: 8px;
  }
 
-/*botones*/
-.boton button,
-.btn-underline button,
-.btn-underline-dark button {
-    @include button-propiedades;
-}
+ /*botones*/
+ .boton button,
+ .btn-underline button,
+ .btn-underline-dark button {
+     @include button-propiedades;
+ }
 
-.boton button {
-    background: $purple;
-    color: $white;
-    border-radius: 15px;
-    @include button-propiedades;
-}
+ .boton button {
+     background: $purple;
+     color: $white;
+     border-radius: 15px;
+     @include button-propiedades;
+ }
 
-.btn-underline button {
-    text-decoration: underline;
-    background-color: transparent;
-    color: white;
-    font-weight: 500;
-    @include button-propiedades;
-}
+ .btn-underline button {
+     text-decoration: underline;
+     background-color: transparent;
+     color: white;
+     font-weight: 500;
+     @include button-propiedades;
+ }
 
-.btn-underline-dark button {
-    text-decoration: underline;
-    background-color: transparent;
-    color: $darkGray;
-    font-weight: 500;
-    @include button-propiedades;
-}
+ .btn-underline-dark button {
+     text-decoration: underline;
+     background-color: transparent;
+     color: $darkGray;
+     font-weight: 500;
+     @include button-propiedades;
+ }
 
  /*Elementos*/
  .badge {
-    @include badge-propiedades;
+     @include badge-propiedades;
  }
 
  .badge-intro {
-    @include badge-propiedades;
-    background: rgba(255, 255, 255, 0.123);
-    backdrop-filter: blur(9.5px);
-    -webkit-backdrop-filter: blur(9.5px);
-    color: white;
-    font-size: 14px;
-}
+     @include badge-propiedades;
+     background: rgba(255, 255, 255, 0.123);
+     backdrop-filter: blur(9.5px);
+     -webkit-backdrop-filter: blur(9.5px);
+     color: white;
+     font-size: 14px;
+ }
 
-.badge-destacado {
-    @include badge-propiedades;
-    background: rgba(255, 255, 255, 0.7);
-    backdrop-filter: blur(9.5px);
-    -webkit-backdrop-filter: blur(9.5px);
-    color: $darkGray;
-    font-size: 16px;
-    font-weight: 800;
-}
+ .badge-destacado {
+     @include badge-propiedades;
+     background: rgba(255, 255, 255, 0.7);
+     backdrop-filter: blur(9.5px);
+     -webkit-backdrop-filter: blur(9.5px);
+     color: $darkGray;
+     font-size: 16px;
+     font-weight: 800;
+ }
 
-.badge-categoria {
-    @include badge-propiedades;
-    background: rgba(255, 255, 255, 0.123);
-    backdrop-filter: blur(9.5px);
-    -webkit-backdrop-filter: blur(9.5px);
-    color: white;
-    font-size: 14px;
-    text-align: center;
-    float: right;
-}
+ .badge-categoria {
+     @include badge-propiedades;
+     background: rgba(255, 255, 255, 0.123);
+     backdrop-filter: blur(9.5px);
+     -webkit-backdrop-filter: blur(9.5px);
+     color: white;
+     font-size: 14px;
+     text-align: center;
+     float: right;
+ }
 
  .block-gray {
      background-color: $lightGray;
@@ -175,23 +176,23 @@
  /*Bloques home*/
 
  #inicio {
-    @include grid-layout-mixin;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+     @include grid-layout-mixin;
+     grid-template-columns: repeat(4, 1fr);
+     grid-template-rows: repeat(3, 1fr);
 
-    .intro {
-        grid-area: 1 / 1 / 4 / 3;
-        background-image: url('../images/Purple-gradient.jpg');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        border-radius: $BorderContainer;
-        padding: 25px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-    }
+     .intro {
+         grid-area: 1 / 1 / 4 / 3;
+         background-image: url('../images/Purple-gradient.jpg');
+         background-size: cover;
+         background-position: center;
+         background-repeat: no-repeat;
+         border-radius: $BorderContainer;
+         padding: 25px;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: flex-start;
+     }
 
      .destacado {
          grid-area: 1 / 3 / 3 / 5;
@@ -349,6 +350,10 @@
      }
  }
 
+ img.photo-yo {
+     width: 60px;
+     border-radius: 10px;
+ }
 
  /*proyectos*/
 
@@ -387,6 +392,8 @@
      text-align: center;
      border-radius: 15px;
      font-size: 14px;
+     display: inline-block;
+     margin-top: 10px;
 
      &:active {
          background-color: #303030;
@@ -394,7 +401,7 @@
  }
 
  #proyectos {
-    @include grid-layout-mixin;
+     @include grid-layout-mixin;
 
      .proyecto1,
      .proyecto2,
@@ -464,6 +471,7 @@
  /* fotografia */
  .espacio-contenedor {
      padding: 15px;
+     margin: 20px 0px;
  }
 
  .fotos {
@@ -672,7 +680,58 @@
          width: 100%;
          margin: 0px 0px 30px 0px;
      }
+
+     //seccion sobre mi
+     main#sobre-mi {
+         flex-direction: column;
+         height: auto;
+         margin-block: 40px;
+         align-items: flex-start !important;
+     }
+
+     //seccion proyectos
+     .filtros {
+         flex-direction: column !important;
+         align-content: flex-start !important;
+         flex-wrap: wrap !important;
+     }
+
+     main#proyectos {
+         display: inline;
+         grid-template-rows: auto;
+         grid-template-columns: 1fr 1fr;
+     }  
+     .proyecto1,.proyecto2,.proyecto3,.proyecto4,.proyecto5{
+        height: 40vh;
+        margin: 20px 0px;
+    }
+    img.mask {
+        width: 165px;
+    }
+    .cta-proyectos{
+        h1{
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+    }
+    //fotografia
+    .cta-fotorgafia{
+        display: none;
+    }
+    .espacio-contenedor{
+        margin-top: 20px 0px;
+    }
+    .fotos{
+        display: inline;
+        grid-template-rows: auto;
+        grid-template-columns: 1fr 1fr;    
+    }
+    .foto1,.foto2,.foto3,.foto4,.foto5{
+        height: 40vh;
+        margin: 10px 0px;
+    }
  }
+
 
  @media screen and (min-width: 768px) {
 
