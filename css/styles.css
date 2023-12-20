@@ -526,6 +526,10 @@ li::marker {
 
 /* Version movil */
 @media screen and (max-width: 768px) {
+  main#inicio {
+    display: inline;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr; }
   .intro {
     grid-area: auto;
     padding: 15px;
@@ -545,11 +549,6 @@ li::marker {
     border-radius: 20px;
     margin-bottom: 10px;
     height: 30vh; }
-  main#inicio {
-    display: inline;
-    grid-template-areas: "intro" "destacado" "reciente reciente-info";
-    grid-template-rows: auto;
-    grid-template-columns: 1fr 1fr; }
   .cta-home {
     background-color: #edf0f7;
     border-radius: 20px;

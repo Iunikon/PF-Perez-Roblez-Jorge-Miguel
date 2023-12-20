@@ -552,6 +552,11 @@
 
  /* Version movil */
  @media screen and (max-width: 768px) {
+    main#inicio {
+        display: inline;
+        grid-template-rows: auto;
+        grid-template-columns: 1fr 1fr;
+    }
      .intro {
          grid-area: auto;
          padding: 15px;
@@ -575,16 +580,6 @@
          border-radius: $BorderContainer;
          margin-bottom: 10px;
          height: 30vh;
-     }
-
-     main#inicio {
-         display: inline;
-         grid-template-areas:
-             "intro"
-             "destacado"
-             "reciente reciente-info";
-         grid-template-rows: auto;
-         grid-template-columns: 1fr 1fr;
      }
 
      .cta-home {
