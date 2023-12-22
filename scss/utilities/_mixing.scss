@@ -27,3 +27,16 @@
     padding-top: 5vh;
     padding-bottom: 5vh;
 }
+@mixin hover-photo {
+    transition: transform 0.3s ease-in-out;
+    &:hover {
+      transform: scale(1.02);
+    }
+  }
+  @mixin hover-header{
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  
+    &:hover {
+      transform: translateY(-2px);
+    }
+  }
