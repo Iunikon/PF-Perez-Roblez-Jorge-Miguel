@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=1300px , initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Jorge Roblez</title>
@@ -14,7 +16,7 @@
 
 <body>
     <!--Header-->
-    <header>
+    <header class="animate__animated animate__fadeInDown animate__fast">
         </div>
         <nav>
             <input type="checkbox" id="menu">
@@ -52,7 +54,7 @@
     </header>
 
 
-    <main id="inicio">
+    <main id="inicio" class="animate__animated animate__fadeIn">
 
         <div class="intro">
             <span class="badge-intro">Jorge Miguel Pérez Roblez</span>
@@ -90,26 +92,29 @@
         </div>
     </main>
 
-    <div class="cta-home">
+    <div class="cta-home" data-aos="fade-up">
         <h2>
             ¡Listo para darle un toque de estilo a tu mundo digital? 🚀
         </h2>
-        <p>Desde diseño gráfico hasta fotos que capturan la esencia, y webs que molan un montón. Echa un vistazo a lo que hacemos y únete al viaje creativo. ¡Vamos a hacer magia juntos! ✨ </p>
+        <p>Desde diseño gráfico hasta fotos que capturan la esencia, y webs que molan un montón. Echa un vistazo a lo
+            que hacemos y únete al viaje creativo. ¡Vamos a hacer magia juntos! ✨ </p>
         <div class="btn-intro-container">
             <a href="#" class="boton"><button>Proyectos</button></a>
             <a href="#" class="btn-underline-dark"><button>Contactame</button></a>
         </div>
     </div>
 
-    <div class="row align-items-center my-5">
+    <div class="row align-items-center my-5 " data-aos="fade-right">
         <div class="col-sm-3 text-center text-md-end align-items-center my-3">
             <h3>Ultimos proyectos <br> realizados</h3>
             <div>
                 <a class="boton" data-bs-target="#multiItemCarousel" data-bs-slide="prev">
-                    <button><img class="bg-arrow" src="images/izquierda blanco.svg" alt="flecha apuntando hacia la izquiera"></button>
+                    <button><img class="bg-arrow" src="images/izquierda blanco.svg"
+                            alt="flecha apuntando hacia la izquiera"></button>
                 </a>
                 <a class="boton" data-bs-target="#multiItemCarousel" data-bs-slide="next">
-                    <button><img class="bg-arrow" src="images/derecha blanco.svg" alt="felcha apuntando hacia la derecha"></button>
+                    <button><img class="bg-arrow" src="images/derecha blanco.svg"
+                            alt="felcha apuntando hacia la derecha"></button>
                 </a>
             </div>
         </div>
@@ -121,10 +126,12 @@
                         <div class="carousel-item active">
                             <div class="row">
                                 <div class="col-md-4">
-                                    <img src="images/2-espiritus.jpg" class="d-block w-100 rounded-2" alt="Mockup botella de cerveza">
+                                    <img src="images/2-espiritus.jpg" class="d-block w-100 rounded-2"
+                                        alt="Mockup botella de cerveza">
                                 </div>
                                 <div class="col-md-4">
-                                    <img src="images/revista.jpg" class="d-block w-100 rounded-2" alt="tablet con revista digital 2">
+                                    <img src="images/revista.jpg" class="d-block w-100 rounded-2"
+                                        alt="tablet con revista digital 2">
                                 </div>
                                 <div class="col-md-4">
                                     <img src="images/infografia.jpg" class="d-block w-100 rounded-2" alt="Item 3">
@@ -138,10 +145,12 @@
                                     <img src="images/ep.jpg" class="d-block w-100 rounded-2" alt="disco de vinilo">
                                 </div>
                                 <div class="col-md-4">
-                                    <img src="images/omega.jpg" class="d-block w-100 rounded-2" alt="torre departamental logo">
+                                    <img src="images/omega.jpg" class="d-block w-100 rounded-2"
+                                        alt="torre departamental logo">
                                 </div>
                                 <div class="col-md-4">
-                                    <img src="images/kolor.jpg" class="d-block w-100 rounded-2" alt="diseño caja de tonner ">
+                                    <img src="images/kolor.jpg" class="d-block w-100 rounded-2"
+                                        alt="diseño caja de tonner ">
                                 </div>
                             </div>
                         </div>
@@ -152,10 +161,12 @@
                                     <img src="images/alamor.jpg" class="d-block w-100 rounded-2" alt="portada de cd 7">
                                 </div>
                                 <div class="col-md-4">
-                                    <img src="images/tanameric.jpg" class="d-block w-100 rounded-2" alt="red social sobre tanques de transporte">
+                                    <img src="images/tanameric.jpg" class="d-block w-100 rounded-2"
+                                        alt="red social sobre tanques de transporte">
                                 </div>
                                 <div class="col-md-4">
-                                    <img src="images/la-kafe.jpg" class="d-block w-100 rounded-2" alt="redes sociales cafeteria, proxiamente">
+                                    <img src="images/la-kafe.jpg" class="d-block w-100 rounded-2"
+                                        alt="redes sociales cafeteria, proxiamente">
                                 </div>
                             </div>
                         </div>
@@ -204,6 +215,11 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+
 </body>
 
 </html>
