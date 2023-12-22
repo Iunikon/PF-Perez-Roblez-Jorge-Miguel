@@ -647,7 +647,11 @@ li::marker {
     display: inline;
     grid-template-rows: auto;
     grid-template-columns: 1fr 1fr; }
-  .proyecto1, .proyecto2, .proyecto3, .proyecto4, .proyecto5 {
+  .proyecto1,
+  .proyecto2,
+  .proyecto3,
+  .proyecto4,
+  .proyecto5 {
     height: 40vh;
     margin: 20px 0px; }
   img.mask {
@@ -663,7 +667,11 @@ li::marker {
     display: inline;
     grid-template-rows: auto;
     grid-template-columns: 1fr 1fr; }
-  .foto1, .foto2, .foto3, .foto4, .foto5 {
+  .foto1,
+  .foto2,
+  .foto3,
+  .foto4,
+  .foto5 {
     height: 40vh;
     margin: 10px 0px; } }
 
