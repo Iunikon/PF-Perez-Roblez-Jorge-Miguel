@@ -19,7 +19,7 @@
     border-radius: 10px;
     font-size: 14px;
 }
-@mixin grid-layout-mixin {
+@mixin grid-layout {
     display: grid;
     grid-column-gap: 20px;
     grid-row-gap: 20px;

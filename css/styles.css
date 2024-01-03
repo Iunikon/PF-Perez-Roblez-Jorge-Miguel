@@ -65,6 +65,8 @@ p {
   color: #303030;
   font-size: 16px;
   font-weight: 300; }
+  p strong {
+    font-weight: 500; }
 
 body {
   max-width: 1200px;

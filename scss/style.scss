@@ -20,6 +20,9 @@
      color: $darkGray;
      font-size: 16px;
      font-weight: 300;
+    strong{
+        font-weight: 500;
+    }
  }
 
  body {
@@ -175,7 +178,7 @@
  /*Bloques home*/
 
  #inicio {
-     @include grid-layout-mixin;
+     @include grid-layout;
      grid-template-columns: repeat(4, 1fr);
      grid-template-rows: repeat(3, 1fr);
 
@@ -404,7 +407,7 @@
  }
 
  #proyectos {
-     @include grid-layout-mixin;
+     @include grid-layout;
 
      .proyecto1,
      .proyecto2,
