@@ -1,42 +1,52 @@
 @mixin input-propiedades {
-    border: none;
-    padding: 4px 4px;
-    background-color: #ffffffb3;
-    border-radius: 5px;
-    margin-inline: 5px;
-    margin-block: 5px !important;
+  border: none;
+  padding: 4px 4px;
+  background-color: #ffffffb3;
+  border-radius: 5px;
+  margin-inline: 5px;
+  margin-block: 5px !important;
 }
+
 @mixin button-propiedades {
-    font-size: 16px;
-    padding: 10px 25px;
-    border: none;
-    cursor: pointer;
+  font-size: 16px;
+  padding: 10px 25px;
+  border: none;
+  cursor: pointer;
 }
+
 @mixin badge-propiedades {
-    background-color: rgb(115, 68, 204);
-    color: white;
-    padding: 5px 15px;
-    border-radius: 10px;
-    font-size: 14px;
+  background-color: rgb(115, 68, 204);
+  color: white;
+  padding: 5px 15px;
+  border-radius: 10px;
+  font-size: 14px;
 }
+
 @mixin grid-layout {
-    display: grid;
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
-    height: 95vh;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+  display: grid;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  height: 95vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
 }
+
 @mixin hover-photo {
-    transition: transform 0.3s ease-in-out;
-    &:hover {
-      transform: scale(1.02);
-    }
+  transition: transform 0.3s ease-in-out;
+
+  &:hover {
+    transform: scale(1.02);
   }
-  @mixin hover-header{
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-  
-    &:hover {
-      transform: translateY(-2px);
-    }
+}
+
+@mixin hover-header {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+
+  &:hover {
+    transform: translateY(-2px);
+    -webkit-transform: translateY(-2px);
+    -moz-transform: translateY(-2px);
+    -ms-transform: translateY(-2px);
+    -o-transform: translateY(-2px);
   }
+}

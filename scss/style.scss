@@ -20,9 +20,10 @@
      color: $darkGray;
      font-size: 16px;
      font-weight: 300;
-    strong{
-        font-weight: 500 !important;
-    }
+
+     strong {
+         font-weight: 500 !important;
+     }
  }
 
  body {
@@ -629,8 +630,10 @@
          border-radius: 15px;
          border: none;
          cursor: pointer;
-         display: block !important;
+         display: flex !important;
          text-align: center;
+         align-items: center;
+         justify-content: center;
 
 
          &:hover {

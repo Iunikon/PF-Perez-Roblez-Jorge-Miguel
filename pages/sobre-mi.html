@@ -20,10 +20,13 @@
         </div>
         <nav>
             <input type="checkbox" id="menu">
-            <label id="label-menu" for="menu"> ☰ Menu </label>
-            <ul class="nav-links">
+            <div class="menu-movil"><label id="label-menu" for="menu"><img class="photo-logo-movil"
+                        src="../images/photo-logo.jpg" alt="Jorge Roblez">Menu </label></div>
+            <ul class="nav-links menu">
                 <li class="logo-container">
-                    <img class="photo-logo" src="../images/photo-logo.jpg" alt="Jorge Roblez">
+                    <a href="../index.html">
+                        <img class="photo-logo" src="../images/photo-logo.jpg" alt="Jorge Roblez">
+                    </a>
                 </li>
                 <li>
                     <a href="#">
@@ -34,15 +37,21 @@
                 <li><a href="../index.html">Home</a></li>
                 <li id="reproductor"><a class="txt-light">Escuchando <b>Extssy Model</b> - Junior H</a></li>
                 <li>
-                    <a href="../pages/proyectos.html">
+                    <a href="/pages/proyectos.html">
                         Proyectos
-                        <img class="arrow" src="../images/abajo-gris.svg" alt="flecha apuntando hacia abajo">
+                        <a href="./pages/sobre-mi.html">
+                            <img class="arrow" src="../images/abajo-gris.svg" alt="flecha apuntando hacia abajo">
+                        </a>
                     </a>
+                    <ul class="submenu">
+                        <li class="submenu-btn"><a href="#">Proyecto 1</a></li>
+                        <li class="submenu-btn"><a href="#">Proyecto 2</a></li>
+                        <li class="submenu-btn"><a href="#">Proyecto 3</a></li>
+                    </ul>
                 </li>
                 <li>
                     <a href="../pages/fotografia.html">
                         Fotografía
-                        <img class="arrow" src="../images/abajo-gris.svg" alt="flecha apuntando hacia abajo">
                     </a>
                 </li>
                 <li id="contacto-btn"><a class="txt-light" href="../pages/contacto.html">Contacto</a></li>
@@ -58,10 +67,11 @@
                     creador visual y fotógrafo,</strong> encuentro inspiración en la diversidad y la creatividad que
                 ofrece el mundo de las artes visuales, digitales y la musica.
             </p>
+            <div class="btn-intro-container">
+                <a href="https://drive.google.com/file/d/1FwsBb5LfXMeBrNi6eUAz-xxmexMxVtcg/view?usp=sharing"
+                    target="_blank" class="boton"><button>Ver portafolio</button></a>
+            </div>
             <p>
-                Con un <strong> enfoque multidisciplinario</strong> y una pasión por la creatividad, estoy comprometido
-                a
-                explorar nuevos horizontes y desafiar los límites visuales.
             </p>
             <h2>Intereses personales
             </h2>
@@ -107,7 +117,7 @@
                     </div>
                     <div class="col-md-6 text-md-end mb-3">
                         <div class="redes-sociales d-flex d-md-inline-flex mt-4 justify-content-center">
-                            <a href="https://www.instagram.com/disfrazdepony/" target="_blank">
+                            <a href="https://www.instagram.com/jorgito.xyz/" target="_blank">
                                 <img class="icon" src="../images/instagram-icon.svg" alt="Instagram logo">
                             </a>
                             <a href="https://www.facebook.com/JorgeMiguelPerezRoblez/" target="_blank">

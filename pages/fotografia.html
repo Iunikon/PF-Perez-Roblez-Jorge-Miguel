@@ -20,29 +20,38 @@
         </div>
         <nav>
             <input type="checkbox" id="menu">
-            <label id="label-menu" for="menu"> ☰ Menu </label>
-            <ul class="nav-links">
+            <div class="menu-movil"><label id="label-menu" for="menu"><img class="photo-logo-movil"
+                        src="../images/photo-logo.jpg" alt="Jorge Roblez">Menu </label></div>
+            <ul class="nav-links menu">
                 <li class="logo-container">
-                    <img class="photo-logo" src="../images/photo-logo.jpg" alt="Jorge Roblez">
+                    <a href="../index.html">
+                        <img class="photo-logo" src="../images/photo-logo.jpg" alt="Jorge Roblez">
+                    </a>
                 </li>
                 <li>
                     <a href="../pages/sobre-mi.html">
-                        <img class="arrow" src="../images/izquierda-gris6.svg" alt="Email">
+                        <img class="arrow" src="../images/izquierda-gris6.svg" alt="flecha izquierda">
                         Sobre Mí
                     </a>
                 </li>
                 <li><a href="../index.html">Home</a></li>
                 <li id="reproductor"><a class="txt-light">Escuchando <b>Extssy Model</b> - Junior H</a></li>
                 <li>
-                    <a href="../pages/proyectos.html">
+                    <a href="/pages/proyectos.html">
                         Proyectos
-                        <img class="arrow" src="../images/abajo-gris.svg" alt="flecha apuntando hacia abajo">
+                        <a href="./pages/sobre-mi.html">
+                            <img class="arrow" src="../images/abajo-gris.svg" alt="flecha apuntando hacia abajo">
+                        </a>
                     </a>
+                    <ul class="submenu">
+                        <li class="submenu-btn"><a href="#">Proyecto 1</a></li>
+                        <li class="submenu-btn"><a href="#">Proyecto 2</a></li>
+                        <li class="submenu-btn"><a href="#">Proyecto 3</a></li>
+                    </ul>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="../pages/fotografia.html">
                         Fotografía
-                        <img class="arrow" src="../images/abajo-gris.svg" alt="flecha apuntando hacia abajo">
                     </a>
                 </li>
                 <li id="contacto-btn"><a class="txt-light" href="../pages/contacto.html">Contacto</a></li>
@@ -58,8 +67,8 @@
                 </h1>
                 <p>Entre rollos y revelados, creo historias tangibles en cada fotografía. Únete a mi viaje donde la
                     nostalgia se encuentra con la creatividad. 📷🎞️✨</p>
-                <a href="#" class="boton"><button>Contacto</button></a>
-                <a href="#" class="btn-underline-dark"><button>Proyectos</button></a>
+                <a href="../pages/contacto.html" class="boton"><button>Contacto</button></a>
+                <a href="../pages/proyectos.html" class="btn-underline-dark"><button>Proyectos</button></a>
             </div>
             <div class="cta-proyectos cta-fotorgafia col-md-6">
                 <img src="../images/irish.png" alt="metal liquido iridiscente" width="400px">
@@ -76,12 +85,10 @@
             <div class="foto5" data-bs-toggle="modal" data-bs-target="#fotoModal5"></div>
         </div>
 
-        <!-- Modales para cada foto -->
         <div class="modal fade" id="fotoModal1" tabindex="-1" aria-labelledby="fotoModal1Label" aria-hidden="true">
             <div class="modal-dialog modal-lg">
                 <div class="modal-content">
                     <div class="modal-body">
-                        <!-- Contenido de la primera foto -->
                         <img src="../images/Foto1.jpg" class="img-fluid" alt="Fotografia de concierto">
                     </div>
                 </div>
@@ -146,7 +153,7 @@
                     </div>
                     <div class="col-md-6 text-md-end mb-3">
                         <div class="redes-sociales d-flex d-md-inline-flex mt-4 justify-content-center">
-                            <a href="https://www.instagram.com/disfrazdepony/" target="_blank">
+                            <a href="https://www.instagram.com/jorgito.xyz/" target="_blank">
                                 <img class="icon" src="../images/instagram-icon.svg" alt="Instagram logo">
                             </a>
                             <a href="https://www.facebook.com/JorgeMiguelPerezRoblez/" target="_blank">

@@ -20,10 +20,13 @@
         </div>
         <nav>
             <input type="checkbox" id="menu">
-            <label id="label-menu" for="menu"> ☰ Menu </label>
-            <ul class="nav-links">
+            <div class="menu-movil"><label id="label-menu" for="menu"><img class="photo-logo-movil"
+                        src="images/photo-logo.jpg" alt="Jorge Roblez">Menu </label></div>
+            <ul class="nav-links menu">
                 <li class="logo-container">
-                    <img class="photo-logo" src="images/photo-logo.jpg" alt="Jorge Roblez">
+                    <a href="#">
+                        <img class="photo-logo" src="images/photo-logo.jpg" alt="Jorge Roblez">
+                    </a>
                 </li>
                 <li>
                     <a href="./pages/sobre-mi.html">
@@ -31,7 +34,7 @@
                         Sobre Mí
                     </a>
                 </li>
-                <li><a href="./pages/sobre-mi.html">Home</a></li>
+                <li><a href="#">Home</a></li>
                 <li id="reproductor"><a class="txt-light">Escuchando <b>Extssy Model</b> - Junior H</a></li>
                 <li>
                     <a href="./pages/proyectos.html">
@@ -40,11 +43,15 @@
                             <img class="arrow" src="images/abajo-gris.svg" alt="flecha apuntando hacia abajo">
                         </a>
                     </a>
+                    <ul class="submenu">
+                        <li class="submenu-btn"><a href="#">Proyecto 1</a></li>
+                        <li class="submenu-btn"><a href="#">Proyecto 2</a></li>
+                        <li class="submenu-btn"><a href="#">Proyecto 3</a></li>
+                    </ul>
                 </li>
                 <li>
                     <a href="./pages/fotografia.html">
                         Fotografía
-                        <img class="arrow" src="images/abajo-gris.svg" alt="flecha apuntando hacia abajo">
                     </a>
                     </a>
                 </li>
@@ -62,8 +69,10 @@
 
             <p class="txt-light">Hola soy Jorge, un diseñador creativo apasionado por las artes
                 visuales, la tecnología y la música.</p>
-            <div class="btn-intro-container"> <a href="#" class="boton"><button>Ver trabajos</button></a>
-                <a href="#" class="btn-underline"><button>Contacto</button></a></div>
+            <div class="btn-intro-container"> <a
+                    href="https://drive.google.com/file/d/1FwsBb5LfXMeBrNi6eUAz-xxmexMxVtcg/view?usp=sharing"
+                    target="_blank" class="boton"><button>Ver Portafolio 2024</button></a>
+                <a href="./pages/contacto.html" class="btn-underline"><button>Contacto</button></a></div>
             <div class="icon-container">
                 <a href="https://www.instagram.com/disfrazdepony/" target="_blank">
                     <img class="icon" src="images/instagram-icon.svg" alt="Instagram logo">
@@ -99,8 +108,8 @@
         <p>Desde diseño gráfico hasta fotos que capturan la esencia, y webs que molan un montón. Echa un vistazo a lo
             que hacemos y únete al viaje creativo. ¡Vamos a hacer magia juntos! ✨ </p>
         <div class="btn-intro-container">
-            <a href="#" class="boton"><button>Proyectos</button></a>
-            <a href="#" class="btn-underline-dark"><button>Contactame</button></a>
+            <a href="./pages/proyectos.html" class="boton"><button>Proyectos</button></a>
+            <a href="./pages/contacto.html" class="btn-underline-dark"><button>Contactame</button></a>
         </div>
     </div>
 
@@ -193,7 +202,7 @@
                     </div>
                     <div class="col-md-6 text-md-end mb-3">
                         <div class="redes-sociales d-flex d-md-inline-flex mt-4 justify-content-center">
-                            <a href="https://www.instagram.com/disfrazdepony/" target="_blank">
+                            <a href="https://www.instagram.com/jorgito.xyz/" target="_blank">
                                 <img class="icon" src="images/instagram-icon.svg" alt="Instagram logo">
                             </a>
                             <a href="https://www.facebook.com/JorgeMiguelPerezRoblez/" target="_blank">

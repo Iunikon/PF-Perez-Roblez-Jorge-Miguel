@@ -27,7 +27,11 @@ header {
       text-align: center;
       transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; }
       header .nav-links li:hover {
-        transform: translateY(-2px); }
+        transform: translateY(-2px);
+        -webkit-transform: translateY(-2px);
+        -moz-transform: translateY(-2px);
+        -ms-transform: translateY(-2px);
+        -o-transform: translateY(-2px); }
       header .nav-links li a {
         font-size: 14px;
         color: #303030;
@@ -36,7 +40,8 @@ header {
   header .logo-container {
     display: flex;
     padding: 0px !important;
-    background: transparent !important; }
+    background: transparent !important;
+    cursor: pointer; }
   header .photo-logo {
     border-radius: 15px;
     width: 45px;
@@ -49,8 +54,42 @@ header {
   header #contacto-btn {
     background-color: #5532dc; }
 
-ol, ul {
+ol,
+ul {
   padding-left: 0px !important; }
+
+.photo-logo-movil {
+  border-radius: 15px;
+  width: 40px;
+  cursor: pointer;
+  display: flex;
+  margin-right: 10px; }
+
+.menu {
+  list-style-type: none; }
+  .menu li {
+    position: relative;
+    display: inline-block; }
+    .menu li.submenu-btn {
+      width: 100%;
+      margin-top: 5px !important;
+      margin-left: 0px !important;
+      margin-right: 0px !important;
+      background-color: #edf0f7f5 !important;
+      box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1); }
+    .menu li .submenu {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0; }
+    .menu li:hover .submenu {
+      display: block; }
+
+@media screen and (max-width: 768px) {
+  .menu li {
+    display: flow; }
+  .menu:hover .submenu {
+    display: none !important; } }
 
 * {
   margin: 0px;
@@ -605,8 +644,10 @@ li::marker {
     border-radius: 15px;
     border: none;
     cursor: pointer;
-    display: block !important;
+    display: flex !important;
     text-align: center;
+    align-items: center;
+    justify-content: center;
     /* Estilo del boton cuando el menú está expandido*/ }
     label:hover {
       background: #5532dc; }

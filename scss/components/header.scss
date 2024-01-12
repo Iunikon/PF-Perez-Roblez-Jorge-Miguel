@@ -1,8 +1,8 @@
 @import "utilities/variable";
 @import "utilities/mixing";
- 
- /*Inicia estilo de header*/
- header {
+
+/*Inicia estilo de header*/
+header {
     padding: 10px 15px;
     margin-inline: 5px;
     z-index: 99999;
@@ -30,6 +30,7 @@
             text-align: center;
             @include hover-header;
 
+
             a {
                 font-size: 14px;
                 color: $darkGray;
@@ -43,6 +44,7 @@
         display: flex;
         padding: 0px !important;
         background: transparent !important;
+        cursor: pointer;
     }
 
     .photo-logo {
@@ -62,6 +64,62 @@
         background-color: $purple;
     }
 }
-ol, ul {
+
+ol,
+ul {
     padding-left: 0px !important;
+}
+
+.photo-logo-movil {
+    border-radius: 15px;
+    width: 40px;
+    cursor: pointer;
+    display: flex;
+    margin-right: 10px;
+}
+
+.menu {
+    list-style-type: none;
+
+    li {
+        position: relative;
+        display: inline-block;
+
+        &.submenu-btn {
+            width: 100%;
+            margin-top: 5px !important;
+            margin-left: 0px !important;
+            margin-right: 0px !important;
+            background-color: #edf0f7f5 !important;
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+
+        }
+
+        .submenu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+        }
+
+        &:hover {
+            .submenu {
+                display: block;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .menu {
+        li {
+            display: flow;
+        }
+
+        &:hover {
+            .submenu {
+                display: none !important;
+            }
+        }
+    }
 }
